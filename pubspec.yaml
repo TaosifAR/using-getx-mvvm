@@ -1,0 +1,23 @@
+name: recode
+description: A Flutter project to demonstrate SQLite with GetX.
+
+publish_to: 'none' # Remove this line if you plan to publish
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
